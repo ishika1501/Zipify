@@ -1,24 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Rubik:wght@300&display=swap");
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Hubballi&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+>>>>>>> 9da68238a9e39936a724135c4c1c2a7e54b2b2c7
 
 * {
   margin: 0;
   padding: 0;
 }
 :root {
+<<<<<<< HEAD
   --primary-font:'Hubballi', cursive;
   --secondary-font: 'Hubballi', cursive;
   --primary-color: #84B3A3;
   --mid-color:yellow;
+=======
+  /* --primary-font: "Rubik", sans-serif;
+  --secondary-font: "Mochiy Pop P One", sans-serif; */
+  /* --primary-color: #30343F;
+>>>>>>> 9da68238a9e39936a724135c4c1c2a7e54b2b2c7
   --secondary-color: #000;
-  --success: rgba(0, 143, 0, 0.767);
-  --error: rgb(182, 3, 3);
+  --success: rgba(119, 0, 143, 0.767);
+  --error: rgb(182, 3, 3); */
 }
 html {
   overflow-x: hidden;
 }
 body {
-  font-family: var(--primary-font);
+  font-family: 'Raleway', sans-serif;
+  background-color: #F4F4F9;
 }
 .flex {
   display: flex;
@@ -28,30 +39,40 @@ body {
 }
 button {
   letter-spacing: 3px;
-  font-family: var(--secondary-font);
+  font-family: 'Raleway', sans-serif;
 }
 .navbar {
   width: 100%;
   height: 100px;
   margin-bottom: 10px;
+<<<<<<< HEAD
   background-image: linear-gradient(145deg, var(--primary-color), var(--mid-color));
+=======
+  background-image: linear-gradient(45deg, #000000, #586F7C);
+>>>>>>> 9da68238a9e39936a724135c4c1c2a7e54b2b2c7
   /* box-shadow: 0px 0px 10px rgb(7, 7, 7); */
   color: rgb(255, 255, 255);
 }
 .logo {
-  font-size: 3rem;
+  font-size: 0.5rem;
+
 }
 .logo img {
   position: relative;
-  bottom: 10px;
+  top: 2px;
+  bottom: 0px;
   right: 20px;
   height: 100px;
 }
 .Container {
   position: relative;
-  width: 80vw;
+  width: 60vw;
   height: 400px;
+<<<<<<< HEAD
   background-image: linear-gradient(145deg, var(--primary-color), var(--mid-color));
+=======
+  background-image: linear-gradient(45deg, #000000, #586F7C);
+>>>>>>> 9da68238a9e39936a724135c4c1c2a7e54b2b2c7
   margin: 20px auto;
   color: white;
   border-radius: 10px;
@@ -63,7 +84,7 @@ button {
 label {
   cursor: pointer;
   font-size: 30px;
-  margin: 30px auto;
+  margin: 25px auto;
   padding: 15px 50px;
   border-radius: 5px;
   border: 2px solid transparent;
@@ -101,7 +122,7 @@ label:hover {
   border: 2px solid #fff;
   color: #fff;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 2px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -109,7 +130,7 @@ label:hover {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: var(--primary-color);
+  background-color:#586F7C;
   color: white;
 }
 .b-btn {
@@ -119,15 +140,15 @@ label:hover {
   margin: 20px;
   width: 300px;
   background-color: white;
-  border: 4px solid var(--primary-color);
-  border-radius: 5px;
+  border: 4px solid #586F7C;
+  border-radius: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
 .active {
-  background-color: var(--primary-color);
+  background-color: #586F7C;
   color: white;
 }
 a {
@@ -138,12 +159,12 @@ a {
   flex-direction: row;
 }
 .info {
-  font-family: var(--secondary-font);
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   margin: 20px auto;
 }
 .success {
-  --primary-color: rgba(0, 143, 0, 0.767);
+  --primary-color: #DEB841;
 }
 .error {
   --primary-color: rgb(182, 3, 3);
