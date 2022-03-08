@@ -258,6 +258,18 @@ a {
   #form {
     height: 300px;
   }
+
+  .info {
+    font-family: var(--primary-font);
+    font-size: 30px;
+    margin: 20px auto;
+  }
+  .success {
+    --primary-color: #DEB841;
+  }
+  .error {
+    --primary-color: rgb(182, 3, 3);
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -365,6 +377,17 @@ a {
     background-color: var(--primary-color);
     color: var(--body-color);
   }
+  .info {
+    font-family: var(--primary-font);
+    font-size: 30px;
+    margin: 20px auto;
+  }
+  .success {
+    --primary-color: #DEB841;
+  }
+  .error {
+    --primary-color: rgb(182, 3, 3);
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -432,5 +455,17 @@ a {
   .active {
     background-color: var(--primary-color);
     color: var(--body-color);
+  }
+
+  .info {
+    font-family: var(--primary-font);
+    font-size: 30px;
+    margin: 20px auto;
+  }
+  .success {
+    --primary-color: #DEB841;
+  }
+  .error {
+    --primary-color: rgb(182, 3, 3);
   }
 }
