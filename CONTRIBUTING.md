@@ -94,3 +94,10 @@ Tips for Communicating a issue
 * If you opened an issue, but figured out the answer later on your own, comment on the issue to let people know, then close the issue. Even documenting that outcome is a contribution to the project.
 
 to learn more click [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
+
+
+# Contributors
+
+<a href="https://github.com/MetaVASP/Zipify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MetaVASP/Zipify" />
+</a>
